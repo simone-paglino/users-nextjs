@@ -1,27 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+* {
+  font-family: Lato, "sans-serif";
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
 }
 
-* {
-  box-sizing: border-box;
+html {
+  --primary-color: #114fbd;
+  --red: #d30404;
+  --green: #007c19;
 }
 
-a {
-  color: #0070f3;
-  text-decoration: none;
+div.MuiTextField-root {
+  min-width: 300px;
 }
 
-a:hover {
-  text-decoration: underline;
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h5,
+span.MuiButton-label {
+  font-weight: 700 !important;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h5 {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.MuiAlert-root {
+  align-items: center;
+  padding: 1rem 2rem !important;
+}
+.MuiAlert-message {
+  font-size: 25px;
 }
