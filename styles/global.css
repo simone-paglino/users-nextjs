@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+* {
+  font-family: Lato, "sans-serif";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  --primary-color: #114fbd;
+  --red: #d30404;
+  --green: #007c19;
+}
+
+div.MuiTextField-root {
+  min-width: 300px;
+}
+
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h5,
+span.MuiButton-label {
+  font-weight: 700 !important;
+}
+
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h5 {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.MuiAlert-root {
+  align-items: center;
+  padding: 1rem 2rem !important;
+}
+.MuiAlert-message {
+  font-size: 25px;
+}
